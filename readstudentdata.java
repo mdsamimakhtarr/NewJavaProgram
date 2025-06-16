@@ -11,6 +11,9 @@ public class readstudentdata {
     System.out.println(s2.toString());
     System.out.println("Data Read Successfully");
 
+    ois.close();
+    fis.close();
+
   }
   
 }
